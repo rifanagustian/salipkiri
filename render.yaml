@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: bot-salip-kiri
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bismillahskripsi.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 8097864970:AAEQoDQMJbG2sD61r8lLxZxcqh54Wk5aZ9g
+      - key: CHAT_ID
+        value: 2015802818

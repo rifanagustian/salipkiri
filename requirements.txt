@@ -1,0 +1,7 @@
+torch
+opencv-python-headless
+numpy
+python-telegram-bot==13.15
+Pillow
+
+opencv-python-headless  # alternatif jika opencv biasa gagal
